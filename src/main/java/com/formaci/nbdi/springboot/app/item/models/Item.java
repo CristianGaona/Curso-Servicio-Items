@@ -1,5 +1,5 @@
 package com.formaci.nbdi.springboot.app.item.models;
-
+import com.formaci.nbdi.springboot.app.commons.models.entity.Producto;
 
 
 public class Item {

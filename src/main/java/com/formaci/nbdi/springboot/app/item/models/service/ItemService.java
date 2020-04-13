@@ -1,9 +1,10 @@
 package com.formaci.nbdi.springboot.app.item.models.service;
 
+
 import java.util.List;
 
 import com.formaci.nbdi.springboot.app.item.models.Item;
-import com.formaci.nbdi.springboot.app.item.models.Producto;
+import com.formaci.nbdi.springboot.app.commons.models.entity.Producto;
 
 public interface ItemService {
 

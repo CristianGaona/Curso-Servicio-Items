@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.formaci.nbdi.springboot.app.item.clientes.ProductoClienteRest;
 import com.formaci.nbdi.springboot.app.item.models.Item;
-import com.formaci.nbdi.springboot.app.item.models.Producto;
+import com.formaci.nbdi.springboot.app.commons.models.entity.Producto;
 
 @Service("serviceFeign")
 public class ItemServiceFeign implements ItemService {
