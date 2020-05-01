@@ -28,7 +28,7 @@ public Producto crear(@RequestBody Producto producto);
 public Producto update(@RequestBody Producto producto, @PathVariable Long id);
 
 @DeleteMapping("/eliminar/{id}")
-public void delete(Long id);
+public void delete(@PathVariable Long id);
 
 
 }
